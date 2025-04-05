@@ -1,29 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ovo&display=swap");
 :root {
   --white: #ffffff;
-  --pink: #ffcb94;
-  --red: #b84210;
-  /*--blue: #3cc1cd; */
-  --blue: #ac3315;
-
   --black: #000000;
 }
 
-.logo {
-  max-width: 15%;
-}
-
 img {
-  max-width: 100%;
+  max-width: 10%;
 }
+ 
 
 body {
   font-family: Ovo, Nunito Sans;
   margin: 0;
-  text-align: center;
+  text-align: center;a
 }
 header {
-  padding: 1rem;
   color: var(--white);
   display: flex;
   flex-flow: row wrap;
@@ -39,7 +30,8 @@ nav ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 1rem;
+  margin-top: -.25rem;
+  margin-botton: -.5rem;
 }
 nav a {
   text-decoration: none;
@@ -49,85 +41,46 @@ nav a:hover {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
-h1 {
-  padding-left: 2rem;
-}
-.container {
-  max-width: 1300px;
-  margin: auto;
-  background-color: var(--pink);
-}
-
-.wrapper {
-  display: grid;
-  grid-column: 1fr;
-  padding: 2rem;
-}
 
 .button {
-  background-color: var(--blue);
+  border: solid 0.5rem var(--black);
+  padding: 8rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
   color: var(--white);
-  padding: 1rem;
   display: inline-block;
   border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  margin: 2rem;
+  margin: 1rem;
 }
 .button:hover {
-  background-color: #de7459;
+  border: solid 0.5rem var(--white);
   color: var(--black);
 }
-/* this is for the coaching page */
-.parentcoaching {
+.parent {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: var(--white);
   gap: 2rem;
 }
-.parentcoaching h2 {
+.child {
   font-size: 2rem;
   text-transform: uppercase;
 }
-.parentcoaching p {
-  font-size: 1.5rem;
-}
-
-.coachingcard,
-.coachingcarda,
-.coachingcardc,
-.coachingcardd {
-  background-color: var(--pink);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-}
-.coachingcard h3 {
-  font-weight: 900;
-  /* text-transform: uppercase; */
-}
 
 footer {
-  background-color: var(--pink);
   color: var(--white);
   text-align: center;
-  padding: 3rem 0;
-  border-top: 15px double var(--blue);
 }
 
-.top {
-  padding: 1rem;
-  display: block;
+footer a {
+  color: var(--white);
 }
 
 @media (min-width: 700px) {
   header {
     justify-content: space-between;
+    align-content: cetner;
     padding: 2rem;
-  }
-  body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
