@@ -21,21 +21,15 @@ body {
   font-family: Ovo, Nunito Sans;
   margin: 0;
   text-align: center;
-  background-image: image);
 }
 header {
-  background-color: var(--pink);
   padding: 1rem;
-  border-bottom: 15px double var(--blue);
-  color: var(--black);
+  color: var(--white);
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding-right: 2rem;
 }
-h2 {
-  font-family: Nunito Sans;
-}
+
 nav ul {
   list-style-type: none;
   text-transform: uppercase;
@@ -49,10 +43,9 @@ nav ul {
 }
 nav a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--white);
 }
 nav a:hover {
-  color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
