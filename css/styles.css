@@ -7,13 +7,13 @@
 img {
   max-width: 10%;
 }
- 
 
 body {
   font-family: Ovo, Nunito Sans;
   margin: 0;
-  text-align: center;a
+  text-align: center;
 }
+
 header {
   color: var(--white);
   display: flex;
@@ -30,8 +30,8 @@ nav ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: -.25rem;
-  margin-botton: -.5rem;
+  margin-top: -0.25rem;
+  margin-bottom: -0.5rem;
 }
 nav a {
   text-decoration: none;
@@ -42,13 +42,13 @@ nav a:hover {
   text-underline-offset: 0.5rem;
 }
 
-.button {
+.wrapper button {
   border: solid 0.5rem var(--black);
+  background-color: none;
   padding: 8rem;
   padding-top: 20rem;
   padding-bottom: 20rem;
   color: var(--white);
-  display: inline-block;
   border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;

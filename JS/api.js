@@ -1,4 +1,4 @@
-var mentalBreakActivities = [
+let mentalBreakActivities = [
   "Learn a short tiktok dance",
   "Learn a step routine",
   "Do a soft life stretch 15-minute session",
@@ -49,3 +49,22 @@ var mentalBreakActivities = [
   "Set a 5-minute timer and clean like you’re defusing a bomb – adrenaline rush included.",
   "Throw on your favorite Afrobeats, dancehall, or R&B track and hit a full-body dance break — waistline included.",
 ];
+
+function getRandomActivity() {
+  let randomIndex = Math.floor(Math.random() * mentalBreakActivities.length);
+  return mentalBreakActivities[randomIndex];
+}
+console.log(getRandomActivity());
+
+function displayRandomActivity() {
+  let randomActivity = getRandomActivity();
+  let activityDisplay = document.getElementById("activity-display");
+  activityDisplay.textContent = randomActivity;
+}
+console.log(displayRandomActivity());
+
+window.onload = displayRandomAcitivy;
+
+document
+  .getElementById("random-activity-btn")
+  .addEventListener("click", displayRandomAactivity);
