@@ -47,7 +47,7 @@ let mentalBreakActivities = [
   "Balance random objects on your head while walking — perfect for mindfulness and giggles.",
   "Try handstand practice against the wall — flips your perspective literally.",
   "Set a 5-minute timer and clean like you’re defusing a bomb – adrenaline rush included.",
-  "Throw on your favorite Afrobeats, dancehall, or R&B track and hit a full-body dance break — waistline included.",
+  "Turn on your favorite Afrobeats, dancehall, or R&B track and hit a full-body dance break — waistline included.",
 ];
 
 function getRandomActivity() {
