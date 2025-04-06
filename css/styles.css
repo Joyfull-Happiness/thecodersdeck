@@ -30,8 +30,8 @@ nav ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: -0.25rem;
-  margin-bottom: -0.5rem;
+  margin-bottom: -0.25rem;
+  font-size: 1.5rem;
 }
 nav a {
   text-decoration: none;
@@ -41,10 +41,12 @@ nav a:hover {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
-
-.wrapper button {
-  border: solid 0.5rem var(--black);
-  background-color: none;
+#activity-display {
+  font-size: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: solid 0.5rem var(--white);
+  background-color: rgb(255, 255, 255, 0.5);
   padding: 8rem;
   padding-top: 20rem;
   padding-bottom: 20rem;
@@ -53,19 +55,24 @@ nav a:hover {
   text-decoration: none;
   text-transform: uppercase;
   margin: 1rem;
+  cursor: pointer;
 }
-.button:hover {
-  border: solid 0.5rem var(--white);
-  color: var(--black);
-}
-.parent {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-}
-.child {
-  font-size: 2rem;
+#random-activity-btn {
+  background-color: transparent;
+  color: var(--white);
+  border: none;
+  text-decoration: none;
   text-transform: uppercase;
+  margin: 1rem;
+  cursor: pointer;
+  box-shadow: none;
+  transition: background-color 0.3s ease;
+  text-size-adjust: 2rem;
+}
+
+#random-activity-btn:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 
 footer {
@@ -80,7 +87,7 @@ footer a {
 @media (min-width: 700px) {
   header {
     justify-content: space-between;
-    align-content: cetner;
+    align-content: center;
     padding: 2rem;
   }
 }

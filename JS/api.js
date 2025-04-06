@@ -63,8 +63,8 @@ function displayRandomActivity() {
 }
 console.log(displayRandomActivity());
 
-window.onload = displayRandomAcitivy;
+window.onload = displayRandomActivity;
 
 document
   .getElementById("random-activity-btn")
-  .addEventListener("click", displayRandomAactivity);
+  .addEventListener("click", displayRandomActivity);
