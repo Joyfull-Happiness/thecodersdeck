@@ -61,7 +61,7 @@ function displayRandomActivity() {
   let activityDisplay = document.getElementById("activity-display");
   activityDisplay.textContent = randomActivity;
 }
-console.log(displayRandomActivity());
+// console.log(displayRandomActivity());
 
 window.onload = displayRandomActivity;
 
