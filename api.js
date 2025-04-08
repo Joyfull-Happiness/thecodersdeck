@@ -50,9 +50,9 @@ let mentalBreakActivities = [
   "Balance random objects on your head while walking — perfect for mindfulness and giggles.",
   "Try handstand practice against the wall — flips your perspective literally.",
   "Set a 5-minute timer and clean like you’re defusing a bomb – adrenaline rush included.",
-  "put on your song of the week, loud and just dance."
+  "put on your song of the week, loud and just dance.",
   "Plan to redecorate your office space, would you like to add a plant? or a picture of your family?",
-  "Reorganize your desk."
+  "Reorganize your desk.",
   "Turn on your favorite Afrobeats, dancehall, or R&B track and hit a full-body dance break — waistline included.",
 ];
 
