@@ -102,4 +102,7 @@ footer a {
     align-content: center;
     padding: 2rem;
   }
+  body {
+    align-items: center;
+  }
 }
