@@ -52,6 +52,7 @@ let mentalBreakActivities = [
   "Set a 5-minute timer and clean like you’re defusing a bomb – adrenaline rush included.",
   "put on your song of the week, loud and just dance.",
   "wash the dishes (it's ok if you want to skip this one!)",
+  "go for a walk and listen to your favorite podcast.",
   "Draw a cloud in the sky. What does it look like?",
   "take out a deck of cards. place the deck face down. As you flip the first card to reveal it's face see if you can guess what card it is without thinking. Go through as much of the deck as you want.",
   "Plan to redecorate your office space, would you like to add a plant? or a picture of your family?",
