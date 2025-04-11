@@ -57,6 +57,9 @@ let mentalBreakActivities = [
   "go for a walk and listen to your favorite podcast.",
   "Draw a cloud in the sky. What does it look like?",
   "learn a new sport",
+  "learn a new language",
+  "plan out your next travel destination",
+
   "take out a deck of cards. place the deck face down. As you flip the first card to reveal it's face see if you can guess what card it is without thinking. Go through as much of the deck as you want.",
   "Plan to redecorate your office space, would you like to add a plant? or a picture of your family?",
   "Reorganize your desk.",
