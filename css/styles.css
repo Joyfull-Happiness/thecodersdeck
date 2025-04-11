@@ -102,7 +102,7 @@ footer a {
     align-content: center;
     padding: 2rem;
   }
-  body {
-    align-items: center;
+  .wrapper {
+    margin: 0 auto;
   }
 }
