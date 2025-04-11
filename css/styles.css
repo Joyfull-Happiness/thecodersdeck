@@ -19,6 +19,7 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 2rem;
 }
 
 nav ul {
@@ -96,13 +97,16 @@ footer a {
   color: var(--white);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
+  .wrapper {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 800px) {
   header {
     justify-content: space-between;
     align-content: center;
     padding: 2rem;
-  }
-  .wrapper {
-    margin: 0 auto;
   }
 }
