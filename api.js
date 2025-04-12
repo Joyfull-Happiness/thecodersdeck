@@ -38,6 +38,7 @@ let mentalBreakActivities = [
   "Create a quick 'affirmation anthem' using lines from your fav Black women artists. Repeat it while moving.",
   "REST!! Seriously DO NOTHING. LIE DOWN AND DO ABSOLUTELY NOTHING.",
   "make up a short story and see if you can create it using AI with pictures.",
+  "do a future self visualization.",
   "Walk around while talking to yourself like you’re Issa Rae rapping in the mirror.",
   "Do a guided meditation; pick the first one that comes up if you have to search for one online.",
   "Whisper 'I love myself,' now speak 'I love myself,' now yell 'I love myself.'",
