@@ -30,65 +30,36 @@
     </header>
     <main>
       <div class="wrapperb">
-        <h1>✨Contribute! Have a good idea? submit it below!✨</h1>
+        <h1>✨Have a good idea? submit it below!✨</h1>
 
         <form action="/my-handling-form-page" method="post">
             <p>
                 <label for="firstname">First Name:</label>
-                <input type="text" id="firstname" name="user-first" />
+                <input type="text" id="firstname" name="user-first" required/>
             </p>
             <p>
                 <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname" name="user-last" />
+                <input type="text" id="lastname" name="user-last" required/>
             </p>
             <p>
                 <label for="mail">Email:</label>
-                <input type="email" id="mail" name="user_email" />
+                <input type="email" id="mail" name="user_email" required/>
             </p>
-            <label for="phone">
-                Phone number:<br />
-                <small>(Format: 123-456-7890)</small>
-            </label>
-            <!-- how do you put a max input?	 -->
-        
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                
             <p> <label for="msg">Message:</label>
         
-                <textarea id="mesg" name="user_message">Write your message here</textarea>
+                <textarea id="mesg" name="user_message" required>Write your idea here. Check back to see your idea on codersdeck!</textarea>
             </p>
         
-            <fieldset>
-                <legend>Would you like to leave a comment?</legend>
-        
-                <div>
-                    <input type="checkbox" id="scales" name="scales" checked />
-                    <label for="scales">Yes</label>
-                </div>
-        
-                <div>
-                    <input type="checkbox" id="horns" name="horns" />
-                    <label for="horns">No</label>
-                </div>
-            </fieldset>
-        
-            <fieldset>
-                <legend>Do you have an emergency Contact:</legend>
-        
-                <div>
-                    <input type="radio" id="huey" name="drone" value="huey" checked />
-                    <label for="huey">Mom</label>
-                </div>
-        
-                <div>
-                    <input type="radio" id="dewey" name="drone" value="dewey" />
-                    <label for="dewey">Dad</label>
-                </div>
-        
-                <div>
-                    <input type="radio" id="louie" name="drone" value="louie" />
-                    <label for="louie">Friend</label>
-                </div>
-            </fieldset>
+            <p>Activity Type:</p>
+            <select name="genre" required>
+                <option value="">--Select Type--</option>
+                <option value="Mental">Mental</option>
+                <option value="Physical">Physical</option>
+                <option value="Fun">Fun</option>
+                <option value="Wellness">Wellness</option>
+                <option value="Other">Other</option>
+            </select>
         
             <p class="button">
                 <button type="submit">Submit</button>

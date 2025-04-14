@@ -73,7 +73,8 @@ nav a:hover {
   margin: 1rem;
 }
 
-#random-activity-btn {
+#random-activity-btn,
+button {
   background-color: transparent;
   color: var(--white);
   border: none;
@@ -86,7 +87,8 @@ nav a:hover {
   padding: 0.5rem;
 }
 
-#random-activity-btn:hover {
+#random-activity-btn:hover,
+button {
   box-shadow: 0px 0px 9px 4px rgb(255, 255, 255);
 }
 
@@ -94,9 +96,53 @@ h1,
 h3 {
   color: var(--white);
 }
+
 form {
+  display: inline-block;
+  padding: 1em;
+  border-radius: 1em;
   color: var(--white);
 }
+
+p + p {
+  margin-top: 1em;
+  font-family: Ovo;
+}
+
+label {
+  display: inline-block;
+  min-width: 90px;
+  text-align: center;
+  font-family: Ovo;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, text areas have a monospace font */
+  font: 1em sans-serif;
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Set the outline width and style */
+  outline-style: solid;
+  /* To give a little highlight on active elements */
+  outline-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+  /* Provide space to type some text */
+  height: 6rem;
+}
+
 footer {
   color: var(--white);
   text-align: center;
