@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+</html>
+<body>
+    <style>
+      body {
+        background-image: url("images/Tarot_Table_Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+    </style>
+    <header>
+      <div class="logo">
+        <a><img src="images/Codedeck_logo_white.png" /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="Contribute.html">Contribute</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="wrapperb">
+        <h1>✨Contribute! Have a good idea? submit it below!✨</h1>
+
+        <form action="/my-handling-form-page" method="post">
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="user-first" />
+            </p>
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="user-last" />
+            </p>
+            <p>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+            </p>
+            <label for="phone">
+                Phone number:<br />
+                <small>(Format: 123-456-7890)</small>
+            </label>
+            <!-- how do you put a max input?	 -->
+        
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+            <p> <label for="msg">Message:</label>
+        
+                <textarea id="mesg" name="user_message">Write your message here</textarea>
+            </p>
+        
+            <fieldset>
+                <legend>Would you like to leave a comment?</legend>
+        
+                <div>
+                    <input type="checkbox" id="scales" name="scales" checked />
+                    <label for="scales">Yes</label>
+                </div>
+        
+                <div>
+                    <input type="checkbox" id="horns" name="horns" />
+                    <label for="horns">No</label>
+                </div>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Do you have an emergency Contact:</legend>
+        
+                <div>
+                    <input type="radio" id="huey" name="drone" value="huey" checked />
+                    <label for="huey">Mom</label>
+                </div>
+        
+                <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">Dad</label>
+                </div>
+        
+                <div>
+                    <input type="radio" id="louie" name="drone" value="louie" />
+                    <label for="louie">Friend</label>
+                </div>
+            </fieldset>
+        
+            <p class="button">
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+     
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy; 2025 Lajoie Fortune LLC
+        <a href="lajoiefortune.com" target="_blank">Lajoie Fortune</a>.
+      </p>
+    </footer>
+    <script src="api.js"></script>
+  </body>
+</html>

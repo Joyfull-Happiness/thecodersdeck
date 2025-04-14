@@ -94,7 +94,9 @@ h1,
 h3 {
   color: var(--white);
 }
-
+form {
+  color: var(--white);
+}
 footer {
   color: var(--white);
   text-align: center;
