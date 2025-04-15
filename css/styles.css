@@ -118,28 +118,20 @@ label {
 
 input,
 textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, text areas have a monospace font */
   font: 1em sans-serif;
-  /* Uniform text field size */
   width: 300px;
   box-sizing: border-box;
-  /* Match form field borders */
   border: 1px solid #999;
 }
 
 input:focus,
 textarea:focus {
-  /* Set the outline width and style */
   outline-style: solid;
-  /* To give a little highlight on active elements */
   outline-color: #000;
 }
 
 textarea {
-  /* Align multiline text fields with their labels */
   vertical-align: top;
-  /* Provide space to type some text */
   height: 6rem;
 }
 
