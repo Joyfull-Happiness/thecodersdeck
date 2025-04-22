@@ -12,6 +12,7 @@ let mentalBreakActivities = [
   "Pet your dog and if you don't haev one watch cute puppy videos for 5 minutes.",
   "Take your dog for a walk. Or walk yourself.",
   "Do a 5,10, or 15-minute yoga nidra",
+  "Pet your cat/dog.",
   "Drink water or make a cup of tea/coffee mindfully.",
   "Read a few pages of fan fiction or have chat GPT write one for you.",
   "learn how to say hello in another languge. Really focus on getting the accent right.",
