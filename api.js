@@ -72,6 +72,7 @@ let mentalBreakActivities = [
   "take out a deck of cards. place the deck face down. As you flip the first card to reveal it's face see if you can guess what card it is without thinking. Go through as much of the deck as you want.",
   "Plan to redecorate your office space, would you like to add a plant? or a picture of your family?",
   "Reorganize your desk.",
+  "It's time to tune into your body. Think of a number 1-20! Now do 3 sets of your favorite (or least favorite) workout.",
   "Turn on your favorite Afrobeats, dancehall, or R&B track and hit a full-body dance break — waistline included.",
 ];
 

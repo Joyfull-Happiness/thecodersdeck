@@ -8,14 +8,7 @@
   </head>
 </html>
 <body>
-    <style>
-      body {
-        background-image: url("images/Tarot_Table_Background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-      }
-    </style>
+
     <header>
       <div class="logo">
         <a><img src="images/Codedeck_logo_white.png" /></a>
@@ -32,8 +25,21 @@
       <div class="wrapperb">
         <h3>✨Have a good idea? <br>Submit it below!✨</h3>
 
-        <form action="/my-handling-form-page" method="post">
-            <p>
+
+        <form
+  action="https://formspree.io/f/mblojznv"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+<p>
                 <label for="firstname">First Name:</label>
                 <input type="text" id="firstname" name="user-first" required/>
             </p>
@@ -41,17 +47,7 @@
                 <label for="lastname">Last Name:</label>
                 <input type="text" id="lastname" name="user-last" required/>
             </p>
-            <p>
-                <label for="mail">Email:</label>
-                <input type="email" id="mail" name="user_email" required/>
-            </p>
-                
-            <p> <label for="msg">Message:</label>
-        
-                <textarea id="mesg" name="user_message" required>Write your idea here. Check back to see your idea on codersdeck!</textarea>
-            </p>
-        
-            <p>Activity Type:</p>
+<p>Activity Type:</p>
             <select name="genre" required>
                 <option value="">--Select Type--</option>
                 <option value="Mental">Mental</option>
@@ -61,10 +57,8 @@
                 <option value="Other">Other</option>
             </select>
         
-            <p class="button">
-                <button type="submit">Submit</button>
-            </p>
-        </form>
+  <button type="submit">Send</button>
+</form>
      
       </div>
     </main>

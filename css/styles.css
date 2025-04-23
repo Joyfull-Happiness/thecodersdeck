@@ -12,6 +12,10 @@ body {
   font-family: Ovo, Nunito Sans;
   margin: 0;
   text-align: center;
+  background-image: url("../images/white_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
