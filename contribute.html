@@ -22,19 +22,21 @@
     </header>
     <main>
       <div class="wrapperb">
-        <h3>✨Have a good idea? <br />Submit it below!✨</h3>
+        <h3>✨Do you want to add to the page? <br />Submit below!✨</h3>
 
         <form action="https://formspree.io/f/mblojznv" method="POST">
           <!-- this is for thursday morning:  https://formspree.io/f/xpwdzkjw -->
-          <label>
-            Your email:
-            <input type="email" name="email" />
-          </label>
-          <br />
-          <label>
-            Contribute Here:
-            <textarea name="message"></textarea>
-          </label>
+
+          <label for="email"
+            >Email: <input type="email" id="email" name="user_email" required
+          /></label>
+
+          <p>
+            <label>
+              Contribute Here:
+              <textarea name="message" required></textarea>
+            </label>
+          </p>
 
           <p>
             <label for="firstname">First Name:</label>
@@ -44,15 +46,16 @@
             <label for="lastname">Last Name:</label>
             <input type="text" id="lastname" name="user-last" required />
           </p>
-          <p>Activity Type:</p>
-          <select name="type" required>
-            <option value="">--Select Type--</option>
-            <option value="Mental">Mental</option>
-            <option value="Physical">Physical</option>
-            <option value="Fun">Fun</option>
-            <option value="Wellness">Wellness</option>
-            <option value="Other">Other</option>
-          </select>
+          <p>
+            <select name="type" required>
+              <option value="">--Activity Type--</option>
+              <option value="Mental">Mental</option>
+              <option value="Physical">Physical</option>
+              <option value="Fun">Fun</option>
+              <option value="Wellness">Wellness</option>
+              <option value="Other">Other</option>
+            </select>
+          </p>
 
           <input type="hidden" name="_next" value="https://google.com" />
           <button type="submit">Send</button>
