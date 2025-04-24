@@ -6,9 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-</html>
-<body>
 
+  <body>
     <header>
       <div class="logo">
         <a><img src="images/Codedeck_logo_white.png" /></a>
@@ -23,43 +22,39 @@
     </header>
     <main>
       <div class="wrapperb">
-        <h3>✨Have a good idea? <br>Submit it below!✨</h3>
+        <h3>✨Have a good idea? <br />Submit it below!✨</h3>
 
+        <form action="https://formspree.io/f/mblojznv" method="POST">
+          <label>
+            Your email:
+            <input type="email" name="email" />
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
 
-        <form
-  action="https://formspree.io/f/mblojznv"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-<p>
-                <label for="firstname">First Name:</label>
-                <input type="text" id="firstname" name="user-first" required/>
-            </p>
-            <p>
-                <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname" name="user-last" required/>
-            </p>
-<p>Activity Type:</p>
-            <select name="genre" required>
-                <option value="">--Select Type--</option>
-                <option value="Mental">Mental</option>
-                <option value="Physical">Physical</option>
-                <option value="Fun">Fun</option>
-                <option value="Wellness">Wellness</option>
-                <option value="Other">Other</option>
-            </select>
-        
-  <button type="submit">Send</button>
-</form>
-     
+          <p>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="user-first" required />
+          </p>
+          <p>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="user-last" required />
+          </p>
+          <p>Activity Type:</p>
+          <select name="genre" required>
+            <option value="">--Select Type--</option>
+            <option value="Mental">Mental</option>
+            <option value="Physical">Physical</option>
+            <option value="Fun">Fun</option>
+            <option value="Wellness">Wellness</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <input type="hidden" name="_next" value="https://google.com" />
+          <button type="submit">Send</button>
+        </form>
       </div>
     </main>
     <footer>
