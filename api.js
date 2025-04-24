@@ -68,7 +68,7 @@ let mentalBreakActivities = [
   "Take a breath, slowly, then lead with your feeling. What excites you? follow it. ",
   "Go for a walk and listen to your favorite podcast.",
   "Draw a cloud in the sky. What does it look like?",
-  "Learn a new sport.",
+  "Learn a new table sport.",
   "Learn a how to say thank you in a new language.",
   "Plan out your next travel destination.",
   "Lay out in the sun.",
