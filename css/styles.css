@@ -120,6 +120,9 @@ button:hover span:after {
   right: 0;
 }
 
+#toggleSound {
+}
+
 h1,
 h3 {
   color: var(--white);

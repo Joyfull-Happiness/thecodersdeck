@@ -98,13 +98,12 @@ document
   .getElementById("random-activity-btn")
   .addEventListener("click", displayRandomActivity);
 
-let audio = document.getElementById("myAudio");
-audio.volume = 0.3;
-
 const audio = document.getElementById("myAudio");
+audio.volume = 0.3;
 const soundButton = document.getElementById("toggleSound");
+const icon = soundButton.querySelector("i");
 
 soundButton.addEventListener("click", () => {
   audio.muted = !audio.muted;
-  soundBtn.textContent = audio.muted ? "🔊 Sound On" : "🔇 Sound Off";
+  icon.className = audio.muted ? "fas fa-volume-up" : "fas fa-volume-mute";
 });
