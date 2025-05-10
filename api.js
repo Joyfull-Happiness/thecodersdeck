@@ -99,4 +99,12 @@ document
   .addEventListener("click", displayRandomActivity);
 
 let audio = document.getElementById("myAudio");
-vid.volume = 0.2;
+audio.volume = 0.3;
+
+const audio = document.getElementById("myAudio");
+const soundButton = document.getElementById("toggleSound");
+
+soundButton.addEventListener("click", () => {
+  audio.muted = !audio.muted;
+  soundBtn.textContent = audio.muted ? "🔊 Sound On" : "🔇 Sound Off";
+});
