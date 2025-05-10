@@ -97,3 +97,6 @@ window.onload = displayRandomActivity;
 document
   .getElementById("random-activity-btn")
   .addEventListener("click", displayRandomActivity);
+
+let audio = document.getElementById("myAudio");
+vid.volume = 0.2;
