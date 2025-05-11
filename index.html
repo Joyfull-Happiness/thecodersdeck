@@ -21,6 +21,18 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="Contribute.html">Contribute</a></li>
+          <li>
+            <audio id="myAudio" autoplay loop>
+              <source
+                src="sounds/ocean-beach-waves-332383.mp3"
+                type="audio/mpeg"
+              />
+              Your browser does not support the audio element.
+            </audio>
+            <button id="toggleSound">
+              <i class="fas fa-volume-mute"></i>
+            </button>
+          </li>
         </ul>
       </nav>
     </header>
@@ -30,13 +42,6 @@
 
         <button id="random-activity-btn">
           <span>Get Another Activity</span>
-        </button>
-        <audio id="myAudio" autoplay loop>
-          <source src="sounds/ocean-beach-waves-332383.mp3" type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
-        <button id="toggleSound">
-          <i class="fas fa-volume-mute"></i>
         </button>
       </div>
     </main>

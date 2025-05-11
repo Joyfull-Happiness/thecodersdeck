@@ -54,10 +54,10 @@ nav a:hover {
   margin: 2rem;
   width: 300px;
   height: 400px;
-  border-radius: 10px;
-  border: solid 0.5rem var(--white);
+  /* border-radius: 10px;
+  border: solid 0.01rem var(--white);
   box-shadow: 0px 0px 9px 4px rgb(255, 255, 255);
-  background-color: rgba(12, 1, 1, 0.75);
+  background-color: rgba(12, 1, 1, 0.406); */
 }
 
 .wrapperb {
@@ -70,7 +70,7 @@ nav a:hover {
 
 #activity-display {
   font-size: 2em;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0.5px 0.5px 0.5px black;
   color: var(--white);
   border-radius: 10px;
   text-decoration: none;
@@ -100,6 +100,7 @@ button span {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 button span:after {
@@ -121,6 +122,14 @@ button:hover span:after {
 }
 
 #toggleSound {
+  text-shadow: 0.5px 0.5px 0.5px black;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1,
