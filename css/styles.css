@@ -93,6 +93,7 @@ button {
   border-radius: 4px;
   transition: all 0.5s;
   cursor: pointer;
+  text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 button span {
@@ -114,6 +115,7 @@ button span:after {
 
 button:hover span {
   padding-right: 25px;
+  text-shadow: 0.5px 0.5px 0.5px black;
 }
 
 button:hover span:after {
